@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="https://kit.fontawesome.com/76c9364433.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <div class="container"></div> -->
+    <div id="header">
+        <div class="container logo">
+            <nav>
+                <img src="/images/amit_logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="header-text">
+                        <h1>Full-Stack Developer</h1>
+                        <p>Hi, I'm <span>AMIT YADAV</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------------------about Me----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/Myphoto_1.jpeg">
+                </div>
+                <div class="about about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a self-learner and I belong to a middle-class family. I always had an interest in
+                        computers and this is the reason behind my working towards my goal to become a
+                        Software Engineer. I completed my graduation and joined Navgurukul. I am still learning
+                        in Navgurukul campus Dharamshala , Himachal Pradesh -176057
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experinces</p>
+                        <p class="tab-links" onclick="opentab('education')">Eduction</p>
+                        <p class="tab-links" onclick="opentab('bootcamp')">Bootcamp</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <span>Python</span><br><br>
+                        <span>JavaScript , Express.js , Node.js</span><br><br>
+                        <span>Database ( MySQL , MongoDB )</span><br><br>
+                        <span>HTML5 , CSS3 , Bootstrap5</span><br><br>
+                        <span>React.js</span>
+
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <span>Mentoring ( Navgurukul Campus )</span><br>
+                        <p>I was selected as a mentor for students in NavGurukul. I have learned how to debug
+                            codes & explain the code to mentees which help me in enhancing my knowledge. It helps
+                            me in revising my codes too.
+                        </p><br>
+                        <span>Maintenance Post ( Navgurukul Campus )</span><br>
+                        <p>I have handled the maintenance post in Navgurukul campus for 4 months .</p>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <span>15 - july - 2021 to Current</span><br><br>
+                        <p>
+                            NavGurukul Campus Dharamshala , Himanchal Predesh<br>
+                            Software Development Course
+                            Where the student will be trained in Software Engineering, Communication and Life
+                            Skills.
+                        </p><br><br>
+                        <span>passed in 2020</span><br><br>
+                        <p>
+                            MARIYAHU SNATKOTTAR MAHAVIDYALAYA MARIYAHU ,
+                            JAUNPUR , UTTAR PRADESH . <br>
+                            Graduation , Bachelor's Degree in Bachelor of Commerce (
+                            B.com ).
+                        </p>
+                    </div>
+                    <div class="tab-contents mindgrep_logo" id="bootcamp">
+                        <img src="../images/mindgrep1.png" alt="mindgrep logo"><br>
+                        <span>Mindgrep Technologies Private Limited </span><br><br>
+                        <p>
+                            I have completed 2.5 months bootcamp . <br> During the bootcamp, I learned the Godspeed
+                            framework and the Yaml language .
+                        </p>
+                        <br>
+                        <h2>About Godspeed's microservice framework</h2>
+                        <p>
+                            Click on the link ...
+                            <a href="https://www.godspeed.systems/" target="_blank">
+                                <i class="fa-solid fa-link"></i></i></a>
+                        </p>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <span>Fron-End Project</span><br><br>
+                        <p>I have created a website using React</p>
+                        <p>
+                            Click on the link...
+                            <a href="https://react-application-2f73e3.netlify.app/" target="_blank">
+                                <i class="fa-solid fa-link"></i></i></a>
+                        </p><br>
+
+                        <p>I have created a Netflix Clone ( home page ) using HTML5, CSS3 .</p>
+                        <p>
+                            Click on the link...
+                            <a href="https://netfix-clone-5b124e.netlify.app/" target="_blank">
+                                <i class="fa-solid fa-link"></i></i></a>                            
+                        </p>
+
+                        <!-- <li><span>Back-End Project</span><br>UI/UX Design Training at ET</li> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------SERVICES---------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>Website Development</h2>
+                    <p>
+                        Using HTML5, CSS3, Bootstrap5                        
+                    </p>                    
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Website Development</h2>
+                    <p>
+                        Using React.js and Redux Toolkit                        
+                    </p>                   
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <i class="fa-brands fa-node"></i>
+                    <h2>Website Development</h2>
+                    <p>
+                        Using JavaScript, Express.js, Node.js                        
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----------------Portfolio------------------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/pic1.jpg">
+                    <div class="layer">
+                        <h3>React Website</h3>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/pic2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>                        
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/pic3.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <!-- <p>
+                            The website connects you yo the talented people around the world.
+                            Download it from play store.
+                        </p> -->
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------CONTACT------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <!-- <div class="row"> -->
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-regular fa-paper-plane"></i>yadavamit222137@gmail.com</p>
+                <p> <i class="fa-solid fa-phone-volume"></i>9651025253</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Amit-Yadav21"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1EuPNuNK-XS3yrVndoDUMd4_wa7iSBmxv/view?usp=share_link" download
+                    class="btn btn2" target="_blank">View CV</a>
+            </div>
+            <!-- <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" autocomplete="off" required>
+                        <input type="text" name="Email" placeholder="Your Email" autocomplete="off" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div> -->
+            <!-- </div> -->
+        </div>
+        <div class="copyright">
+            <p>Amit Yadav <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbziF3SbSohsYCM5n86R7TjaCkR6c1P0sxG5D3nc8ZlQkeqIXf-g-JN2_hYqDOS2dY_C/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Send Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
