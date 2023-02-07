@@ -21,6 +21,9 @@
     .logo img{
         margin-top: 5px;
     }
+    hr{
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 600px){

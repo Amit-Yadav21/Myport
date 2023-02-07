@@ -179,6 +179,9 @@ nav ul li a:hover::after{
 .godspeed_logo img{
     width: 8rem;
 }
+hr{
+    width: 50%;
+}
 
 /* ============================== services =============================== */
 #services{
