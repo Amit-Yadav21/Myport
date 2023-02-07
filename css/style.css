@@ -24,6 +24,7 @@ body{
 #sidemenu{
     height: 20rem;
     border-radius: 10px;
+    /* margin-left: 0.5rem; */
 }
 /* ------------------------------------------ */
 .container{
