@@ -1,0 +1,20 @@
+@media (min-width:0px) and (max-width:667px) {
+    #header{
+        width: 100%;
+        height: auto;
+        background-image: url(/images/backgroungpic.jpeg)no-repeat center center/cover;
+        /* background-position: center; */
+        /* background-repeat:no-repeat ; */
+        /* background-size: cover; */
+    
+    }
+    .tab-titles{
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tab-titles p{
+        font-size: 0.9rem;
+    }
+}
