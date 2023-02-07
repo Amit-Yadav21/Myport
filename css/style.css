@@ -20,6 +20,10 @@ body{
     background-size: cover;
 
 }
+#sidemenu{
+    /*  ------------hambergger icon------------- */
+    height: 20rem;
+}
 .container{
     padding: 10px 10px;
     margin-left: 1rem;
