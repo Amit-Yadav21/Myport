@@ -37,3 +37,9 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Error!', error.message))
 })
+
+// ----------------------------------
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+  });
