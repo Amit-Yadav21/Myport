@@ -328,6 +328,31 @@ hr{
     color: #ff004f;
     transform: translateY(-5px);
 }
+/* ---------------------------------------------Back-Top */
+.back-top a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.back-top a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+
+}
+.back-top{
+    margin-top: 30px;
+    background-color:green;
+    border-radius: 5px;
+    margin-left: 107rem;
+}
+.back-top a {
+    margin-left: 13px;
+}
+
+/* ------------------------------------------------------ */
 .btn.btn2{
     display: inline-block;
     background: #ff004f;

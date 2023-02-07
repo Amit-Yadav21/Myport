@@ -24,6 +24,9 @@
     hr{
         width: 80%;
     }
+    .back-top{
+        margin-left: 16rem;
+    }
 }
 
 @media only screen and (max-width: 600px){
