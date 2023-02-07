@@ -11,8 +11,9 @@ function opentab(tabname) {
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
-// </script>
-// <script>
+
+// --------------------------------------------------------------------------------
+
 var sidemeu = document.getElementById("sidemenu");
 function openmenu() {
     sidemeu.style.right = "0";
@@ -20,8 +21,8 @@ function openmenu() {
 function closemenu() {
     sidemeu.style.right = "-200px";
 }
-// </script>
-// <script>
+// ------------------------------------------------------------------------------------
+
 const scriptURL = 'https://script.google.com/macros/s/AKfycbziF3SbSohsYCM5n86R7TjaCkR6c1P0sxG5D3nc8ZlQkeqIXf-g-JN2_hYqDOS2dY_C/exec'
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("msg")
@@ -37,4 +38,3 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Error!', error.message))
 })
-    // </script>
