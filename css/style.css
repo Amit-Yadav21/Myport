@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(/images/backgroungpic.jpeg);
+    background-image: url(/images/Bg_Image.jpeg);
     background-position: center;
     background-repeat:no-repeat ;
     background-size: cover;
@@ -24,7 +24,10 @@ body{
 #sidemenu{
     height: 20rem;
     border-radius: 10px;
-    /* margin-left: 0.5rem; */
+}
+#sidemenu a{
+    color:black;
+    background-color: white;
 }
 /* ------------------------------------------ */
 .container{
@@ -76,13 +79,18 @@ nav ul li a:hover::after{
     /* margin-top: 20%; */
     font-size: 30px;
 }
-.header-text h1{
+.header-text h1 {
     color: white;
     font-size: 60px;
     /* margin-top: 20px; */
 }
-.header-text p span{
+.header-text p{
+    color: white;
+}
+.header-text span{
     color: red;
+    font-weight: 900;
+    font-size:x-large;
 }
 /* header Work is complete */
 /* ================================ About Me ======================== */

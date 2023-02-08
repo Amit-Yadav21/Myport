@@ -22,24 +22,20 @@ function closemenu() {
 }
 // ------------------------------------------------------------------------------------
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbziF3SbSohsYCM5n86R7TjaCkR6c1P0sxG5D3nc8ZlQkeqIXf-g-JN2_hYqDOS2dY_C/exec'
-const form = document.forms['submit-to-google-sheet']
-const msg = document.getElementById("msg")
-form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
-            msg.innerHTML = "Message Send Successfully"
-            setTimeout(function () {
-                msg.innerHTML = ""
-            }, 5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-})
+// const scriptURL = 'https://script.google.com/macros/s/AKfycbziF3SbSohsYCM5n86R7TjaCkR6c1P0sxG5D3nc8ZlQkeqIXf-g-JN2_hYqDOS2dY_C/exec'
+// const form = document.forms['submit-to-google-sheet']
+// const msg = document.getElementById("msg")
+// form.addEventListener('submit', e => {
+//     e.preventDefault()
+//     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+//         .then(response => {
+//             msg.innerHTML = "Message Send Successfully"
+//             setTimeout(function () {
+//                 msg.innerHTML = ""
+//             }, 5000)
+//             form.reset()
+//         })
+//         .catch(error => console.error('Error!', error.message))
+// })
 
 // ----------------------------------
-
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
-  });
