@@ -28,8 +28,8 @@ body{
 #sidemenu a{
     color:black;
     background-color: white;
-    border-radius: 30%;
-    box-shadow: 2px 3px;
+    border-radius: 50%;
+    box-shadow: 2px 3px gray;
     font-size: 25px;
 }
 /* ------------------------------------------ */
