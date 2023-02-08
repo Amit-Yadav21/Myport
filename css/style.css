@@ -22,12 +22,15 @@ body{
 }
 /*  ------------hambergger icon------------- */
 #sidemenu{
-    height: 20rem;
+    height: 22rem;
     border-radius: 10px;
 }
 #sidemenu a{
     color:black;
     background-color: white;
+    border-radius: 30%;
+    box-shadow: 2px 3px;
+    font-size: 25px;
 }
 /* ------------------------------------------ */
 .container{
@@ -230,7 +233,7 @@ hr{
     background: #ff004f;
     transform: translateY(-8px);
 }
-/* ======================== portfolio ========================= */
+/* ======================== my-work ========================= */
 #portfolio{
     padding: 50px 0;    
 }
@@ -319,6 +322,9 @@ hr{
     color: #ff004f;
     margin-right: 15px;
     font-size: 20px;
+}
+.contact-left .fa-whatsapp{
+    font-size: 28px;
 }
 .social-icons{
     margin-top: 30px;
