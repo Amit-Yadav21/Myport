@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background: #f8fafc;
     color: #fff;
 }
 #header{
@@ -99,7 +99,7 @@ nav ul li a:hover::after{
 /* ================================ About Me ======================== */
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: black;
 }
 .row{
     display: flex;
@@ -125,7 +125,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: black;
 }
 /* ......................tab skill/Experience/Education/Bootcamp/Project ...........*/
 .tab-titles{
@@ -133,7 +133,7 @@ nav ul li a:hover::after{
     margin: 20px 0 40px;
 }
 .tab-titles p{
-    color: white;
+    color: black;
 }
 .tab-links{
     margin-right: 50px;
@@ -205,8 +205,13 @@ hr{
     grid-gap: 40px;
     margin-top: 50px;
 }
+.services-list p{
+    font-size: 1.4rem;
+}
 .services-list div{
-    background: #262626;
+    background: white;
+    color: black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -317,6 +322,8 @@ hr{
 }
 .contact-left p{
     margin-top: 30px;
+    color: black;
+    font-size: 1.4rem;
 }
 .contact-left p i{
     color: #ff004f;
@@ -333,7 +340,7 @@ hr{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: black;
     display: inline-block;
     transition: transform 0.5s;
 
