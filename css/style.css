@@ -183,6 +183,7 @@ nav ul li a:hover::after{
 .mindgrep_logo img{
     height: 5rem;
     border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .tab-contents p a{
     color:yellow;
@@ -373,12 +374,13 @@ hr{
     margin-left: 13px;
 }
 
-/* ------------------------------------------------------ */
+/* ------------------------------------------------------View CV */
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
 }
-.contact-right form{
+/* --------------------------------------------------------- */
+/* .contact-right form{
     width: 100%;
 }
 form input, form textarea{
@@ -397,14 +399,16 @@ form btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-}
+} */
+/* ============================== footer ================================= */
 .copyright{
     width: 100%;
     text-align: center;
     padding: 25px 0;
     background: #262626;
-    font-weight: 300;
+    font-weight: 900;
     margin-top: 20px;
+    font-size: 1.3rem;
 }
 .copyright i{
     color:#ff004f 
