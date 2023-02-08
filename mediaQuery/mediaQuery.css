@@ -1,8 +1,8 @@
 @media (min-width:0px) and (max-width:667px) {
     #header{
         width: 100%;
-        height: auto;
-        background-image: url(/images/backgroungpic.jpeg)no-repeat center center/cover;
+        height: 92.5vh;
+        background-image: url(../images/Bg_Image.jpeg)no-repeat center center/cover;
     }
     .tab-titles{
         position: relative;
@@ -93,5 +93,26 @@
     }
     .copyright{
         font-size: 14px;
+    }
+}
+
+@media (min-width:668px) and (max-width:1280px) {
+    .back-top{
+        margin-left: 73rem;
+    }
+}
+
+@media (max-width:280px) {
+    .back-top{
+        margin-left: 11rem;
+    }
+    .contact-left p{
+        font-size: 0.8rem;
+    }
+    .services-list div{
+        margin-right: 20px;
+    }
+    .work-list .work{
+        margin-right: 20px;
     }
 }
