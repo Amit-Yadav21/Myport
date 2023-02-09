@@ -26,7 +26,7 @@
         width: 80%;
     }
     .back-top{
-        margin-left: 17rem;
+        margin-left: 16rem;
     }
     #sidemenu a{
         background-color: #ff004f;
@@ -114,13 +114,13 @@
 }
 /* ----------- */
 
-@media (min-width:361px) and (max-width:393px) {
+@media (min-width:360px) and (max-width:393px) {
     #header{
         height: 100vh;
     }
     .back-top{
         margin-top: -15rem;
-        margin-left: 18rem;
+        margin-left: 17rem;
     }
     .logo img{
         height: 3.5rem;
